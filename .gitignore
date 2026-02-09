@@ -29,6 +29,7 @@ tests/screenshots/*.png
 .env.development.local
 .env.test.local
 .env.production.local
+mcp.json
 mcp.local.json
 
 # Logs
