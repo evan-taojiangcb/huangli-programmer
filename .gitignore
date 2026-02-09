@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Build outputs
+build/
+dist/
+.vite/
+.vercel/
+.next/
+out/
+
+# Testing
+test-results/
+playwright-report/
+playwright/.cache/
+coverage/
+.nyc_output/
+
+# 测试截图（保留示例截图，忽略其他）
+tests/screenshots/*.png
+!tests/screenshots/.gitkeep
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+mcp.local.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*~
+
+# OS
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Wrangler
+.wrangler/
+.dev.vars
+
+# Cloudflare
+.cloudflare/
