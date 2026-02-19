@@ -29,8 +29,21 @@ tests/screenshots/*.png
 .env.development.local
 .env.test.local
 .env.production.local
+.envrc
+
+# Secrets / credentials
+.aws/
+.aws/*
+.credentials
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
 mcp.json
-mcp.local.json
+mcp.*.json
+!mcp.json.example
 
 # Logs
 logs
