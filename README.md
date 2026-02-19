@@ -55,3 +55,7 @@ tests/             Playwright tests
 ## License
 
 Private repository by default (`"private": true` in `package.json`).
+
+## Maintenance
+
+- Project archive: `docs/PROJECT_ARCHIVE.md`
